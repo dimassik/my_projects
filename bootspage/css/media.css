@@ -1,0 +1,161 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.header .navbar-nav>li {
+		padding: 0 16px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	#percent {
+		left: 87vw;
+		font-size: 20px;
+	}
+
+	.nav_btn {
+		display: block;
+	}
+
+	.header .navbar-nav>li {
+		padding: 0;
+		display: block;
+		text-align: left; 
+		font-size: 15px;
+	}
+
+	.header .container {
+		width: 100%;
+		padding: 0;
+	}
+	
+	.header .collapse {
+		display: block;
+		width: 100%;
+		margin: 0;
+	}
+
+	.progress {
+		display: none;
+	}
+
+	.header .navbar {
+		opacity: 1;
+		background-color: #e6e6e6;
+		border: 0;
+	}
+
+	.btm_link {
+		visibility: hidden;
+	}
+	
+	.header ul {
+		display: none;
+	}
+	
+	.navbar-nav {
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+
+	.header .navbar-nav>li a {
+		color: white;
+	}
+
+	.header .navbar-nav>li a:hover {
+		color: white;
+	}
+
+	.header span,i {
+		margin-right: 10px;
+	}
+
+	.header ul li:nth-child(1) {
+		background-color: black;
+	}
+	.header ul li:nth-child(2) {
+		background-color: #2FBAA1;
+	}
+	.header ul li:nth-child(3) {
+		background-color: #ff6666;
+	}
+	.header ul li:nth-child(4) {
+		background-color: #34495e;
+	}
+	.header ul li:nth-child(5) {
+		background-color: rgb(243,156,18);
+	}
+	.header ul li:nth-child(6) {
+		background-color: #2f2f2f;
+	}
+
+	/*Disable Animation on Mobile Devices
+	.animated {
+		/*CSS transitions
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	} */
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	#percent {
+		left: 85vw;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.header ul {
+		display: block !important;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

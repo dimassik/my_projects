@@ -1,0 +1,324 @@
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+/*	line-height: 1.6;*/
+	font-family: "RobotoRegular", sans-serif;
+	overflow-x: hidden;	
+}
+
+.header {
+	width: 100%;
+}
+
+.collapse {
+	border: 0;
+}
+
+.header .navbar {
+	opacity: 0.8;
+}
+
+.header .navbar-nav>li {
+	display: inline-block;
+	float: none;
+	font-size: 11px;
+	padding: 0 25px;
+}
+
+.header .navbar-nav {
+	float: none;
+}
+
+.header .nav li a {
+	padding: 10px 10px;
+	padding-bottom: 0;
+}
+
+.header .progress {
+	margin-bottom: 0;
+	height: 5px;
+	background-color: transparent;
+	box-shadow: none;
+}
+
+.header .navbar {
+	margin-bottom: 0;
+}
+
+.top_img {
+	background-image: url('../img/1.jpg');
+	width: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	box-shadow: inset 2200px 1000px 1px rgba(26, 19, 19,0.2);
+}
+
+.btm_link { 
+	background-color: red;
+	width: 100%;
+	height: 5px;
+	opacity: 0;
+}
+
+.btm_class {
+	opacity: 1;
+}
+
+.header .progress {
+	margin-top: -5px;
+}
+
+.header .progress-bar {
+	position: relative;
+	transition: all 1.5s;
+}
+
+.btnt {
+	position: fixed;
+	z-index: 1000000;
+}
+
+.top_img  .container {
+	height: 100%;
+}
+
+.top_text {
+	margin-top: 210px;
+}
+
+.top_img p,h1{
+	color: white;
+}
+
+.top_img h1 {
+	font-size: 50px;
+}
+
+.fw {
+	font-weight: bold;
+}
+
+.top_logs {
+	margin-top: 100px;
+}
+
+.top_img img {
+	margin-bottom: 50px;
+	transition: all 2s;
+}
+
+.top_img .col-sm-4:hover img{
+	transform: translateY(-30px);
+}
+
+.top_logs p {
+	color: #ED2D47;
+	font-size: 20px;
+}
+
+.about_us {
+	width: 100%;
+	background-color: #2FBAA1;
+}
+
+.a_u_stripe {
+	width: 20%;
+	height: 5px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.a_u_text {
+	position: relative;
+	padding-top: 80px;
+	color: white;
+	font-size: 30px;
+}
+
+.a_u_text p:nth-child(1) {
+	font-size: 45px;
+}
+
+.a_u_logs {
+	color: white;
+	position: relative;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+
+.a_u_logs p:nth-child(2) { /*не понимаю что за хуйня*/
+	margin: 40px 0px;
+}
+
+.about_us p, .process p, .clients p, .contact p{
+	opacity: 0.8;
+}
+
+.top_logs div>div {
+	margin: 40px 0;
+}
+
+.a_u_logs div {
+	margin-bottom: 40px;
+}
+
+.thumb img { 
+      filter: none; /* IE6-9 */ 
+      -webkit-filter: grayscale(0);  
+      background-color: #fff; 
+    } 
+
+.thumb { 
+      padding:5px;
+      position: relative;
+      transition: all 1s;
+    } 
+
+.images {
+	background-image: url('../img/newpaper.jpg');
+}
+
+.images .container {
+	padding: 50px 0;
+}
+
+.thumb_op {
+	opacity: 0.5;
+}
+
+.search {
+	width: 90px;
+	height: 50px;
+	background-color: rgba(38,38,38, 0.5);
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+	text-align: center;
+}
+
+.search:after {
+	content: '';
+    display: block;
+    position: absolute;
+    top: -73px;
+    border: 45px solid transparent;
+    border-bottom: 28px solid rgba(38,38,38, 0.5);
+}
+
+.search:before {
+	content: '';
+    display: block;
+    position: absolute;
+    top: 50px;
+    border: 45px solid transparent;
+    border-top: 28px solid rgba(38,38,38, 0.5);
+}
+
+.search i {
+	opacity: 0.8;
+	color: white;
+}
+
+.db {
+	display: block;
+}
+
+.process {
+	background-color: #34495e;
+}
+
+.p_logs {
+	color: white;
+	padding-top: 90px;
+}
+
+.p_logs p:nth-of-type(1) { /*viberet 1 p*/
+	font-size: 25px;
+	min-height: 6em;
+}
+
+.p_logs p:nth-of-type(2) { /*viberet vtorie p*/
+	padding-bottom: 60px;
+}
+
+.clients {
+	background-color: rgb(243,156,18);
+	color: white;
+}
+
+.clients p:nth-of-type(2) {
+	margin-top: 50px;
+}
+
+.clients .row {
+	padding-top: 80px;
+	padding-bottom: 40px;
+}
+
+.stripe {
+	width: 20%;
+	height: 5px;
+	background-color: #8c8c8c;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.contact {
+	color: white;
+	background-color: #2f2f2f;
+}
+
+.c_icons {
+	padding: 150px 0;
+}
+
+.c_icons .col-sm-2:hover div{
+	transform: translateY(-40px);
+}
+
+.c_icons .col-sm-2:hover p{
+	opacity: 0.8;
+}
+
+.c_icons .col-sm-2 {
+	margin-top: 60px;
+}
+
+.c_i_block p {
+	font-size: 25px;
+	transition: all 2s;
+	opacity: 0;
+}
+
+.c_i_block {
+	transition: all 2s;
+}
+
+/*for #percent*/
+#percent {
+	position: fixed;
+	top: 90vh;
+	left: 90vw;
+	z-index: 100000;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.nav_btn {
+	text-align: right;
+	font-size: 34px;
+	color: #cccccc;
+	display: none;
+}
+
+.nav_btn span {
+	cursor: pointer;
+}
